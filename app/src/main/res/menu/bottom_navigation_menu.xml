@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/movieListFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_list_24"
+        android:title="@string/movie_list" />
+    <item
+        android:id="@+id/favoriteMoviesFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_star_border_24"
+        android:title="@string/favorite_movies" />
+</menu>

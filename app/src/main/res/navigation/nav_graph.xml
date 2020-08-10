@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/movieListFragment">
+
+    <fragment
+        android:id="@+id/movieListFragment"
+        android:name="com.dviecas.mymovielist.ui.movielist.MovieListFragment"
+        android:label="MovieListFragment"
+        tools:layout="@layout/fragment_movie_list"
+        />
+
+    <fragment
+        android:id="@+id/favoriteMoviesFragment"
+        android:name="com.dviecas.mymovielist.ui.favoritemovies.FavoriteMoviesFragment"
+        android:label="FavoriteMoviesFragment"
+        tools:layout="@layout/fragment_favorite_movies"
+        />
+
+</navigation>

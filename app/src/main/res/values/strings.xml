@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Movie List</string>
+    <string name="movie_rating_icon_description">Movie rating icon</string>
+    <string name="movie_list">Movie List</string>
+    <string name="favorite_movies">Favorite Movies</string>
+</resources>
